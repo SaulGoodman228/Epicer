@@ -14,4 +14,4 @@ reg_router = APIRouter(prefix="/registration", tags=["registration"])
 
 @reg_router.post("/success")
 async def pub():
-    return {"":'',"":''}
+    return {"":'',"":' '}
